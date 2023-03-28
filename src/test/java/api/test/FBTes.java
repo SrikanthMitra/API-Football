@@ -13,7 +13,7 @@ public class FBTes
 				response.then().log().all();
 	}
 
-	@Test
+	@Test(priority = 2)
 	public void getTimezone()
 	{
 		Response response = FTEndpoints.Timezone();
