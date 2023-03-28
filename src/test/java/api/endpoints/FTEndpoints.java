@@ -9,7 +9,7 @@ import jdk.internal.net.http.common.Log;
 
 public class FTEndpoints 
 {
-	static String apikey = "dbf68caf871fb5d337affcadeee98c06";
+	static String apikey = "dXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX6";
 	static String host = "api-football-v1.p.rapidapi.com/v3";
 	
 	public static Response Status()
