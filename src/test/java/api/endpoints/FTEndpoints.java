@@ -31,4 +31,14 @@ public class FTEndpoints
 					.get(Routes.timezone);
 		return response;
 	}
+	
+	public static Response GetLeague()
+	{
+		Response response = given()
+				.header("X-Rapidapi-Key", apikey)
+				.header("x-rapidapi-host", host)
+				.when()
+					.get(Routes.GetLeague);
+		return response;
+	}
 }

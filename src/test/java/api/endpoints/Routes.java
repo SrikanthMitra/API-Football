@@ -7,4 +7,6 @@ public class Routes
 	public static String status= base_url+"/status";  
 	
 	public static String timezone= base_url+"/timezone"; 
+	
+	public static String GetLeague = base_url+"/leagues";
 }

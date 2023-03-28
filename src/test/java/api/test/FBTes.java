@@ -20,4 +20,11 @@ public class FBTes
 			response.then().log().all();
 	}
 	
+	@Test(priority = 3)
+	public void getLeagues() 
+	{
+		Response response = FTEndpoints.GetLeague();
+		response.then().log().all();
+	}
+	
 }
