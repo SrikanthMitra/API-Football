@@ -37,8 +37,20 @@ public class FTEndpoints
 		Response response = given()
 				.header("X-Rapidapi-Key", apikey)
 				.header("x-rapidapi-host", host)
+				//.queryParam("name", "England")
 				.when()
 					.get(Routes.GetLeague);
+		return response;
+	}
+	
+	public static Response GetTeams()
+	{
+		Response response = given()
+				.header("X-Rapidapi-Key", apikey)
+				.header("x-rapidapi-host", host)
+				.queryParam("id", "33")
+				.when()
+					.get(Routes.GetTeam);
 		return response;
 	}
 }

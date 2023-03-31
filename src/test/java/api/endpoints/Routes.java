@@ -9,4 +9,6 @@ public class Routes
 	public static String timezone= base_url+"/timezone"; 
 	
 	public static String GetLeague = base_url+"/leagues";
+	
+	public static String GetTeam = base_url+"/teams";
 }
